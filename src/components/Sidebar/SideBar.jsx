@@ -13,7 +13,7 @@ const SideBar = () => {
       <div className="sidebar__container">
         <div className="sidebar__section">
           <div className="sidebar__logo">
-            <img src="./ps_test/logo.png" alt="" width={60} height={100} />
+            <img src="/ps_test/logo.png" alt="" width={60} height={100} />
           </div>
           <div className="sidebar__item">
             <GiHamburgerMenu size="20px" color="#84909c" />

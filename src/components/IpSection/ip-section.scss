@@ -130,7 +130,12 @@
 
         &__ip-address {
             width: 100%;
-            padding: 1rem;
+            padding: 1rem;    
+
+        }
+
+        &__select {
+            flex-direction: column;
         }
 
     }

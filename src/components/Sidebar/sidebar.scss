@@ -1,16 +1,13 @@
 .sidebar {
     background: #24242c;
-    flex: 0 0 250px;
     position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    overflow-y: auto;
 
     &__container {
-        display: flex;
-        flex-direction: column;
-        gap: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     }
 
     &__section {

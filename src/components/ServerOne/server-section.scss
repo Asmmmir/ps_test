@@ -281,44 +281,96 @@
             }
         }
 
+        &__fieldset-wrapper {}
+
         &__processor {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__system-disc {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__netport {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__ipmi {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__disc2 {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__netport2 {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__memory {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__disc3 {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__controller {
             margin: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
 
         &__description {
             padding: 0;
+            padding: 1rem;
+
+            &-wrapper {
+                flex-direction: column;
+            }
         }
     }
 
