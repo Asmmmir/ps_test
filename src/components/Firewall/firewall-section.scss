@@ -1,3 +1,15 @@
+@mixin customSelect {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('/ps_test/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+}
+
+
+
+
 .firewall {
     width: 100%;
     margin-top: 1.2rem;
@@ -30,18 +42,15 @@
         border: none;
         outline: none;
         padding: 0.5rem;
+        background-color: #ffffff;
         width: 100%;
         font-size: 16px;
         line-height: 18px;
         color: #22232b;
         font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
 
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        background-image: url('/ps_test/arrow.svg');
-        background-repeat: no-repeat;
-        background-position: right 8px center;
+    @include customSelect;
 
     }
 
@@ -51,7 +60,6 @@
         width: 100%;
 
         fieldset {
-            padding: 0.1rem;
             border-radius: 7px;
             background-color: #ffffff;
             border: 1px solid #bdcdd6;
@@ -71,7 +79,7 @@
         padding: 1rem;
         width: 31.7%;
         padding: 0px 0 0px 41px;
-        gap: 25px;
+        gap: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -127,18 +135,22 @@
 
         button {
             width: 100%;
+            min-height: 40px;
             border-radius: 10px;
-            background-color: #ffffff;
+            background-color: #20a8d8;
             border: 2px solid #20a8d8;
-            padding: 0.6rem 0.5rem;
-
+            padding-right: 20px;
             font-size: 14px;
             line-height: 18px;
-            color: #22232b;
+            color: #ffffff;
             font-weight: 700;
-
+            font-family: 'Open Sans', sans-serif;
             &:hover {
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+
+            &:active {
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
             }
         }
     }
@@ -176,9 +188,6 @@
     .firewall {
         padding: 0 34px;
 
-        &__wrapper {
-            padding: 1rem;
-        }
 
         &__ip-address {
             width: 100%;
@@ -186,8 +195,10 @@
 
         }
 
-        &__select {
-            flex-direction: column;
+        &__title {
+            font-size: 16px;
         }
     }
 }
+
+

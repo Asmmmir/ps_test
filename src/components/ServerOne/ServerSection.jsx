@@ -9,12 +9,15 @@ const ServerOne = () => {
           <h1 className="server-section__title">Сервер 1</h1>
           <div className="server-section__processor">
             <div className="server-section__processor-wrapper">
+              <div className="server-section__icon">
               <img
                 src="/ps_test/img2.svg"
                 alt="processor"
                 width={35}
                 height={35}
               />
+
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>Процессор</legend>
@@ -31,12 +34,14 @@ const ServerOne = () => {
           </div>
           <div className="server-section__system-disc">
             <div className="server-section__system-disc-wrapper">
+            <div className="server-section__icon">
               <img
                 src="/ps_test/img1.svg"
                 alt="processor"
                 width={35}
                 height={35}
               />
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>Системный диск 1</legend>
@@ -56,12 +61,14 @@ const ServerOne = () => {
 
           <div className="server-section__netport">
             <div className="server-section__netport-wrapper">
+            <div className="server-section__icon">
               <img
                 src="/ps_test/img3.svg"
                 alt="netport"
                 width={35}
                 height={35}
               />
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>Сетевой порт 1</legend>
@@ -75,7 +82,9 @@ const ServerOne = () => {
           </div>
           <div className="server-section__ipmi">
             <div className="server-section__ipmi-wrapper">
+            <div className="server-section__icon">
               <img src="/ps_test/img3.svg" alt="ipmi" width={35} height={35} />
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>
@@ -91,7 +100,9 @@ const ServerOne = () => {
           </div>
           <div className="server-section__disc2">
             <div className="server-section__disc2-wrapper">
+            <div className="server-section__icon">
               <img src="/ps_test/img1.svg" alt="disc2" width={35} height={35} />
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>Диск 2</legend>
@@ -105,12 +116,14 @@ const ServerOne = () => {
           </div>
           <div className="server-section__netport2">
             <div className="server-section__netport2-wrapper">
+            <div className="server-section__icon">
               <img
                 src="/ps_test/img3.svg"
                 alt="netport2"
                 width={35}
                 height={35}
               />
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>Сетевой порт 2</legend>
@@ -124,12 +137,14 @@ const ServerOne = () => {
           </div>
           <div className="server-section__memory">
             <div className="server-section__memory-wrapper">
+            <div className="server-section__icon">
               <img
                 src="/ps_test/img4.svg"
                 alt="memory"
                 width={35}
                 height={35}
               />
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>ОЗУ</legend>
@@ -143,7 +158,9 @@ const ServerOne = () => {
           </div>
           <div className="server-section__disc3">
             <div className="server-section__disc3-wrapper">
+            <div className="server-section__icon">
               <img src="/ps_test/img1.svg" alt="disc3" width={35} height={35} />
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>Диск 3</legend>
@@ -157,12 +174,14 @@ const ServerOne = () => {
           </div>
           <div className="server-section__controller">
             <div className="server-section__controller-wrapper">
+            <div className="server-section__icon">
               <img
                 src="/ps_test/img3.svg"
                 alt="dcontroller"
                 width={35}
                 height={35}
               />
+              </div>
               <div className="server-section__fieldset-wrapper">
                 <fieldset>
                   <legend>RAID 12Gbit/s</legend>

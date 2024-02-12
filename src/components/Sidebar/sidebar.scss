@@ -1,13 +1,14 @@
 .sidebar {
-    background: #24242c;
-    position: fixed;
 
     &__container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #24242c;
+        position: fixed;
+        overflow: auto;
+        min-height: 100%;
     }
 
     &__section {
@@ -24,5 +25,25 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        &:active {
+            background-color: #20a8d8;
+        }
+    }
+}
+
+
+
+@media screen and (max-height: 460px) {
+
+    .sidebar {
+
+        &__container {
+            justify-content: flex-start;
+        }
+
+        &__section {
+            gap: 0;
+        }
     }
 }

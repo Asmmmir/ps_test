@@ -4,13 +4,14 @@
     justify-content: center;
     align-items: center;
     flex: 1;
+    margin: 0 2rem;
     padding-left: 40px;
 }
 
 
 
-// @media screen and (max-width:835px) {
-//     .main {
-//         padding-right: 25px
-//     }
-// }
+@media screen and (max-width:460px) {
+    .main {
+        margin: 0;
+    }
+}

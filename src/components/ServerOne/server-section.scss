@@ -30,19 +30,20 @@
         border: none;
         outline: none;
         font-weight: 800;
-        padding: 0.5rem;
+        padding: 0px 0 10px 15px;
+        background-color: #ffffff;
         width: 100%;
         font-size: 16px;
         line-height: 18px;
-        color: #22232b;
+         color: #22232b;
         font-weight: 700;
-
+        font-family: 'Open Sans', sans-serif;
+        
         @include customSelect
     }
 
     fieldset {
         max-width: 434px;
-        padding: 0.1rem;
         border-radius: 7px;
         background-color: #ffffff;
         border: 1px solid #bdcdd6;
@@ -52,8 +53,15 @@
             line-height: 18px;
             color: #22232b;
             font-weight: 400;
-            padding: 0 0.7rem;
+            padding: 0px 7px;
+            font-family: 'Open Sans', sans-serif;
+            
         }
+    }
+
+
+   &__icon {
+        margin-bottom: 20px;
     }
 
 
@@ -79,7 +87,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(8, 4.4rem);
-        padding: 2px 0 0 42.4px;
+        padding: 2px 5px 0 42.4px;
         width: 100%;
         background: #fff;
         border-radius: 20px;
@@ -87,6 +95,12 @@
     }
 
 
+    &__fieldset-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
 
     &__processor {
         grid-column: 1 / span 2;
@@ -213,13 +227,6 @@
         }
     }
 
-    &__fieldset-wrapper {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-
-    }
-
     &__price {
         @include priceText;
 
@@ -243,23 +250,27 @@
         margin-top: 19px;
         margin-left: 22px;
         max-width: 332px;
+    
 
         button {
             width: 100%;
+            min-height: 40px;
             border-radius: 10px;
             background-color: #ffffff;
             border: 2px solid #20a8d8;
-            padding: 0.6rem 0.5rem;
-            ;
-
+            padding-right: 20px;
             font-size: 14px;
             line-height: 18px;
             color: #22232b;
             font-weight: 700;
-
+            font-family: 'Open Sans', sans-serif;
 
             &:hover {
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+
+            &:active {
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
             }
         }
     }
@@ -285,92 +296,72 @@
 
         &__processor {
             margin: 0;
-            padding: 1rem;
 
-            &-wrapper {
-                flex-direction: column;
-            }
+
+          
         }
 
         &__system-disc {
             margin: 0;
-            padding: 1rem;
 
-            &-wrapper {
-                flex-direction: column;
-            }
+
+       
         }
 
         &__netport {
             margin: 0;
-            padding: 1rem;
 
-            &-wrapper {
-                flex-direction: column;
-            }
+
+        
         }
 
         &__ipmi {
             margin: 0;
-            padding: 1rem;
 
-            &-wrapper {
-                flex-direction: column;
-            }
+
+         
         }
 
         &__disc2 {
             margin: 0;
-            padding: 1rem;
 
-            &-wrapper {
-                flex-direction: column;
-            }
+
+        
+        
         }
 
         &__netport2 {
             margin: 0;
-            padding: 1rem;
+     
 
-            &-wrapper {
-                flex-direction: column;
-            }
         }
 
         &__memory {
             margin: 0;
-            padding: 1rem;
+ 
 
-            &-wrapper {
-                flex-direction: column;
-            }
+          
         }
 
         &__disc3 {
             margin: 0;
-            padding: 1rem;
+   
 
-            &-wrapper {
-                flex-direction: column;
-            }
+      
         }
 
         &__controller {
             margin: 0;
-            padding: 1rem;
+       
 
-            &-wrapper {
-                flex-direction: column;
-            }
+       
         }
 
         &__description {
             padding: 0;
-            padding: 1rem;
+   
 
-            &-wrapper {
-                flex-direction: column;
-            }
+        
         }
     }
 
@@ -379,6 +370,22 @@
         display: flex;
         flex-direction: column;
         padding: 0 2rem;
+        gap: 1rem;
     }
 
+}
+
+
+
+
+
+@media screen and (min-width:1180px) {
+        // .server-section__container {
+        //     margin: 0 3rem;
+        // }
+
+        // .server-section__wrapper {
+        //     padding: 1rem 2rem;
+        // }
+  
 }
