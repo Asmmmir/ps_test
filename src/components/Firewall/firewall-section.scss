@@ -4,7 +4,7 @@
     -moz-appearance: none;
     background-image: url('/ps_test/arrow.svg');
     background-repeat: no-repeat;
-    background-position: right 12px center;
+    background-position: right 16px center;
 }
 
 
@@ -12,7 +12,7 @@
 
 .firewall {
     width: 100%;
-    margin-top: 1.2rem;
+    margin-top: 1.6rem;
     padding: 0 0 0 34px;
 
     &__container {
@@ -27,7 +27,7 @@
         border-radius: 20px;
         display: flex;
         align-items: stretch;
-        gap: 3.1rem;
+        gap: 3.2rem;
     }
 
     &__title {
@@ -41,7 +41,7 @@
         border-radius: 0.5rem;
         border: none;
         outline: none;
-        padding: 0.5rem;
+        padding: 0 0 10px 15px;
         background-color: #ffffff;
         width: 100%;
         font-size: 16px;
@@ -58,6 +58,7 @@
         display: flex;
         gap: 1.4rem;
         width: 100%;
+        min-height: 40px;
 
         fieldset {
             border-radius: 7px;
@@ -70,7 +71,8 @@
                 line-height: 18px;
                 color: #22232b;
                 font-weight: 400;
-                padding: 0 0.3rem;
+                padding: 0 5px;
+                margin: 0 0 0 10px;
             }
         }
     }
@@ -79,7 +81,7 @@
         padding: 1rem;
         width: 31.7%;
         padding: 0px 0 0px 41px;
-        gap: 15px;
+        gap: 27px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -124,7 +126,7 @@
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-            gap: 2rem;
+            gap: 1.1rem;
         }
     }
 
@@ -139,7 +141,7 @@
             border-radius: 10px;
             background-color: #20a8d8;
             border: 2px solid #20a8d8;
-            padding-right: 20px;
+            padding-right: 10px;
             font-size: 14px;
             line-height: 18px;
             color: #ffffff;
@@ -175,6 +177,7 @@
         line-height: 16px;
         color: #3e515b;
         font-weight: 400;
+            margin-left: 1.7rem;
     }
 }
 

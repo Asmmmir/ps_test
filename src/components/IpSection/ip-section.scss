@@ -4,7 +4,7 @@
     -moz-appearance: none;
     background-image: url('/ps_test/arrow.svg');
     background-repeat: no-repeat;
-    background-position: right 12px center;
+    background-position: right 16px center;
 }
 
 
@@ -64,14 +64,15 @@
             border-radius: 7px;
             background-color: #ffffff;
             border: 1px solid #bdcdd6;
-           width: 100%;
+            width: 100%;
 
             legend {
                 font-size: 11px;
                 line-height: 18px;
                 color: #22232b;
                 font-weight: 400;
-                padding: 0 0.3rem;
+                padding: 0 5px;
+                margin: 0 0 0 10px;
             }
         }
     }
@@ -80,7 +81,7 @@
         padding: 1rem;
         width: 31.7%;
         padding: 0px 0 0px 41px;
-        gap: 15px;
+        gap: 22px;
         display: flex;
         flex-direction: column;
         justify-content: center;

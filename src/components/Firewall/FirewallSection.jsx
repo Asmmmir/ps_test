@@ -40,7 +40,7 @@ const FirewallSection = () => {
             </div>
             <div className="firewall__total-price">
               <p>
-                За <span>415 000</span> тг/мес{" "}
+                за <span>415 000</span> тг/мес{" "}
               </p>
             </div>
             <div className="firewall__feature">
