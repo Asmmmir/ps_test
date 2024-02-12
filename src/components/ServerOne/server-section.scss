@@ -35,10 +35,10 @@
         width: 100%;
         font-size: 16px;
         line-height: 18px;
-         color: #22232b;
+        color: #22232b;
         font-weight: 700;
         font-family: 'Open Sans', sans-serif;
-        
+
         @include customSelect
     }
 
@@ -56,12 +56,12 @@
             padding: 0 7px 0 5px;
             margin: 0 0 0 10px;
             font-family: 'Open Sans', sans-serif;
-            
+
         }
     }
 
 
-   &__icon {
+    &__icon {
         margin-bottom: 20px;
     }
 
@@ -251,7 +251,7 @@
         margin-top: 19px;
         margin-left: 22px;
         max-width: 332px;
-    
+
 
         button {
             width: 100%;
@@ -293,76 +293,45 @@
             }
         }
 
-        &__fieldset-wrapper {}
-
         &__processor {
             margin: 0;
-
-
-          
         }
 
         &__system-disc {
             margin: 0;
-
-
-       
         }
 
         &__netport {
             margin: 0;
 
-
-        
         }
 
         &__ipmi {
             margin: 0;
-
-
-         
         }
 
         &__disc2 {
             margin: 0;
-
-
-        
-        
         }
 
         &__netport2 {
             margin: 0;
-     
-
         }
 
         &__memory {
             margin: 0;
- 
-
-          
         }
 
         &__disc3 {
             margin: 0;
-   
-
-      
         }
 
         &__controller {
             margin: 0;
-       
-
-       
         }
 
         &__description {
             padding: 0;
-   
-
-        
         }
     }
 
@@ -374,19 +343,4 @@
         gap: 1rem;
     }
 
-}
-
-
-
-
-
-@media screen and (min-width:1180px) {
-        // .server-section__container {
-        //     margin: 0 3rem;
-        // }
-
-        // .server-section__wrapper {
-        //     padding: 1rem 2rem;
-        // }
-  
 }
