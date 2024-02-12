@@ -126,6 +126,10 @@
     .block-ip {
         padding: 0 34px;
 
+        select {
+            font-size: 12px;
+        }
+
         &__wrapper {
             width: 100%;
             flex-direction: column;

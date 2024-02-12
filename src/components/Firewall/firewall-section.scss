@@ -49,7 +49,7 @@
         font-weight: 700;
         font-family: 'Open Sans', sans-serif;
 
-    @include customSelect;
+        @include customSelect;
 
     }
 
@@ -146,6 +146,7 @@
             color: #ffffff;
             font-weight: 700;
             font-family: 'Open Sans', sans-serif;
+
             &:hover {
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             }
@@ -176,7 +177,7 @@
         line-height: 16px;
         color: #3e515b;
         font-weight: 400;
-            margin-left: 1.7rem;
+        margin-left: 1.7rem;
     }
 }
 
@@ -190,6 +191,9 @@
     .firewall {
         padding: 0 34px;
 
+        select {
+            font-size: 12px;
+        }
 
         &__ip-address {
             width: 100%;
@@ -202,5 +206,3 @@
         }
     }
 }
-
-
